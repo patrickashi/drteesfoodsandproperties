@@ -33,7 +33,7 @@ const  Navbar = ({ handleContactClick, location }) => {
       };
       
     return ( 
-        <div className={`flex bg-white justify-between items-center fixed top-0 left-0 right-0 z-50 py-2 px-2 md:px-6 text-black ${navBgClass}`}>
+        <div className={`flex bg-white/50 justify-between items-center fixed top-0 left-0 right-0 z-50 py-2 px-2 md:px-6 text-black ${navBgClass}`}>
             <div>
                 <Link to="/">
                     <img className="w-32" src={drteelogo}  size={20} alt="logo" />
@@ -41,7 +41,7 @@ const  Navbar = ({ handleContactClick, location }) => {
             </div>
             
             <div>
-                <ul className="hidden mobile:hidden  md:flex lg:flex xl-flex 2xl:flex text-black mx-auto  ">
+                <ul className="hidden mobile:hidden  md:flex lg:flex xl-flex 2xl:flex text-black mx-auto font-semibold  ">
                     <li className="p-4 hover:underline hover:cursor-pointer">
                         <Link to="/">Home</Link>
                     </li>
@@ -52,7 +52,7 @@ const  Navbar = ({ handleContactClick, location }) => {
                         <Link to="/">Contact us</Link>
                     </li>
                     <li className="flex p-4 hover:underline hover:cursor-pointer bg-[#fb923c] text-white rounded-lg" >
-                        <Link to="/" className="flex ">
+                        <Link to="https://wa.me/2348036178995" className="flex ">
                             <div>PLACE AN ORDER </div>
                             
                         </Link>
@@ -100,19 +100,19 @@ const  Navbar = ({ handleContactClick, location }) => {
                     </li>
                 </ul>
                 <div className="ml-2" onClick={() => { handleLinkClick() }}>
-                    <Link to="/Quotep">
-                        <button className="bg-[#fb923c] text-white px-4 py-4 rounded-md mt-20 md:mt-10 flex ">RESERVATION</button>
+                    <Link to="https://wa.me/2348036178995">
+                        <button className="bg-[#fb923c] text-white px-4 py-4 rounded-md mt-20 md:mt-10 flex ">PLACE AN ORDER</button>
                     </Link>
                 </div>
 
                 <div className="flex gap-10 mb-auto ml-2 items-bottom mt-10">
                     <div>
-                        <a href="https://wa.me/2348142810028">
+                        <a href="https://wa.me/2348036178995">
                             <FaWhatsapp className="mt-1 mr-1 text-emerald-700" size={20} />
                         </a>
                     </div>
                     <div>
-                        <a href="https://www.instagram.com/foodz_by_rita?igsh=ZGUzMzM3NWJiOQ==">
+                        <a href="#">
                             <FaInstagram className="mt-1 mr-1 text-red-600" size={20}/>
                         </a>
                     </div>

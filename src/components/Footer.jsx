@@ -19,9 +19,10 @@ const Footer = () => {
                 
                 <div className="text-center">
                     <h1 className=" mb-4 font-luckiest text-[#fb923c] text-lg">INFORMATION</h1>
-                    <p className="">Abuja, Nigeria</p>
+                    <p className="">19 Malvan Iyalla, Abuja Municipality</p>
+                    <p className="">FCT Abuja, Nigeria</p>
                     <p className="">Call us now: +234 803 617 8995</p>
-                    <p>Email: drtee@gmail.com</p>
+                    <p>Email: drteeglobal@gmail.com</p>
                 </div>
                
                 <div className="text-center">
