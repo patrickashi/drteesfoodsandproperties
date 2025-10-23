@@ -1,6 +1,6 @@
 import React, {useState} from "react"
 import {AiOutlineClose, AiOutlineMenu} from "react-icons/ai"
-import drteelogo from "../assets/drteelogo.png";
+import drtee_logotransparent from "../assets/drtee_logotransparent.png";
 import { Link } from "react-router-dom";
 
 import { FaWhatsapp } from "react-icons/fa";
@@ -33,15 +33,15 @@ const  Navbar = ({ handleContactClick, location }) => {
       };
       
     return ( 
-        <div className={`flex bg-white/50 justify-between items-center fixed top-0 left-0 right-0 z-50 py-2 px-2 md:px-6 text-black ${navBgClass}`}>
+        <div className={`flex bg-[#a41850]/90 justify-between items-center fixed top-0 left-0 right-0 z-50 py-2 px-2 md:px-6 text-black ${navBgClass}`}>
             <div>
                 <Link to="/">
-                    <img className="w-32" src={drteelogo}  size={20} alt="logo" />
+                    <img className="w-32" src={drtee_logotransparent}  size={20} alt="logo" />
                 </Link>
             </div>
             
             <div>
-                <ul className="hidden mobile:hidden  md:flex lg:flex xl-flex 2xl:flex text-black mx-auto font-semibold  ">
+                <ul className="hidden mobile:hidden  md:flex lg:flex xl-flex 2xl:flex text-white mx-auto font-semibold  ">
                     <li className="p-4 hover:underline hover:cursor-pointer">
                         <Link to="/">Home</Link>
                     </li>
@@ -63,20 +63,20 @@ const  Navbar = ({ handleContactClick, location }) => {
 
             <button className="hidden p-4 hover:underline hover:cursor-pointer bg-[#fb923c] text-white rounded-lg text-xs">RESERVATION</button>
 
-            <div onClick={handleNav} className="mobile:block md:hidden 2xl:hidden lg:hidden xl:hidden z-20">
-                {nav ? <AiOutlineClose className="text-black z-80" size={20}/> : <AiOutlineMenu className="white " size={20}/>} 
+            <div onClick={handleNav} className="mobile:block md:hidden 2xl:hidden lg:hidden xl:hidden z-20 text-white">
+                {nav ? <AiOutlineClose className="text-white z-80" size={20}/> : <AiOutlineMenu className="white " size={20}/>} 
             </div>
 
             {/* toggle menu */}
-            <div className={nav ? "fixed bg-white left-0 top-0 h-full w-[90%] ease-out duration-500" : "fixed left-[-100%]"}>
+            <div className={nav ? "fixed bg-[#a41850] left-0 top-0 h-full w-[90%] ease-out duration-500" : "fixed left-[-100%]"}>
 
                 <div className="flex align-middle mt-4 ml-2 ">
                     <Link to="/">
-                        <img className="w-32" src={drteelogo}  size={20} alt="logo" />
+                        <img className="w-32" src={drtee_logotransparent}  size={20} alt="logo" />
                     </Link>
                 </div>
 
-                <ul className="flex flex-col p-4 my-6 gap-16 text-black">
+                <ul className="flex flex-col p-4 my-6 gap-16 text-white">
                     <li className="" onClick={() => { handleLinkClick() } }>
                         <div className="flex align-middle">
                             {/* <TiGroup className="mt-1 mr-1 text-slate-800 "/> */}

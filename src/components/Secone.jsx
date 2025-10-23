@@ -24,7 +24,7 @@ const Secone = () => {
 
     return (
         <div 
-            className="h-full flex flex-col md:flex-row w-full justify-center text-black pb-10 bg-cover bg-center bg-no-repeat relative"
+            className="h-full pt-10 flex flex-col md:flex-row w-full justify-center text-black pb-10 bg-cover bg-center bg-no-repeat relative"
             style={{ backgroundImage: `url(${food1})` }}
         >
             {/* Optional: Add overlay for better text readability */}

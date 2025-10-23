@@ -11,6 +11,7 @@ import { FaRegFileCode } from "react-icons/fa";
 import { GrProjects } from "react-icons/gr";
 import { TiGroup } from "react-icons/ti";
 import drteelogo from "../assets/drteelogo.png";
+import drtee_logotransparent from "../assets/drtee_logotransparent.png";
 
 const Footer = () => {
     return (
@@ -27,7 +28,7 @@ const Footer = () => {
                
                 <div className="text-center">
                     <div className="flex justify-center mb-2">
-                        <img src={drteelogo}  className="w-32 rounded-md" alt="logo" />
+                        <img src={drtee_logotransparent}  className="w-32 rounded-md" alt="logo" />
                     </div>
                     <p className="mb-2">Feel free to discuss your Budget</p>
                     <ul className="flex justify-center gap-4">

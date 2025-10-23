@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react"
 import abt_bg from "../assets/abt_bg.jpg";
 import Testimonies from "../components/Testimonies";
 import drteelogo from "../assets/drteelogo.png";
+import drtee_logo2 from "../assets/drtee_logo2.png"
 import { Building2, Leaf, ShieldCheck, TrendingUp, Globe, Users } from "lucide-react";
 
 const Aboutusp = () => {
@@ -131,7 +132,7 @@ const Aboutusp = () => {
                             </p>
                         </div>
                         <div className="md:w-64">
-                            <img src={drteelogo} className="rounded-2xl w-full shadow-lg hover:scale-105 transition-transform duration-300" alt="Dr Tees Logo" />
+                            <img src={drtee_logo2} className="rounded-2xl w-full shadow-lg hover:scale-105 transition-transform duration-300" alt="Dr Tees Logo" />
                         </div>
                     </div>
                 </div>
